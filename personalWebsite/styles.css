@@ -1,0 +1,174 @@
+body{
+    margin: 10px;
+    font-size: 20px;
+    padding: 5px;
+    background-color: rgb(248, 241, 200)
+}
+
+.heading {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.heading a{
+    color:rgb(134, 115, 5);
+    text-decoration: none;
+    margin: 5px 20px;
+    padding: 5px;
+}
+.heading h1{
+    margin-left: 10%;
+    margin-top: 20px;
+    font-family: "Playwrite AT", cursive;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    background-color: rgb(41, 28, 28);
+    color: antiquewhite;
+    box-shadow: 5px 5px 5px 5px rgb(78, 66, 66);
+    opacity: 0.8;
+    border-radius: 20px;
+    padding: 0 5px;
+}
+.nav{
+    margin: 30px;
+    margin-right: 10%;
+    font-size: 15px;
+   
+    
+}
+
+.nav a:hover{
+    background-color: black;
+    box-shadow: 2px 5px 5px rgb(41, 28, 28);
+    color: beige;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+figcaption{
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+.clouds{
+    
+    background: url(./assets/clouds\ 1.png);
+    animation: cloudsFlow 30s linear infinite;
+    
+    padding: 10px;
+    
+    position: relative;
+    
+}
+
+@keyframes cloudsFlow {
+   0% {background-position: 0 0;}
+   100% {background-position: -1000px 0;}
+}
+
+
+
+#about, #interests, #personal-life, #contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    font-family: "Playpen Sans", cursive;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    
+}
+
+.intro{
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.intro > h3{
+    
+    font-size: 30px;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    
+    
+      
+      
+      
+}
+
+.intro > .content {
+    align-self:  center;
+}
+
+.interests h3 {
+ align-self: flex-start;
+ font-weight: 600;
+}
+.content p{
+    font-size: 20px;
+}
+ .interests > .content {
+    align-self: flex-start;
+    font-weight:300;
+ }
+
+.interests > .content summary{
+    font-weight: lighter;
+    font-size: 15px;
+    font-style: italic;
+}
+
+details > p {
+    
+    border: 2px dashed rgb(158, 202, 245);
+    padding: 10px;
+}
+
+#personal-life h3 {
+    align-self: flex-start;
+}
+
+#contact{
+    align-items: flex-start;
+    padding-bottom: 10px;
+}
+
+#contact p {
+    font-size: 15px;
+    margin: 5px;
+}
+
+.footer{
+    background-color: rgb(194, 238, 183);
+    padding: 5px;
+    font-size: smaller;
+    text-align: center;
+}
+
+
+section:hover{
+    background-color: rgb(192, 225, 243);
+    padding: 10px;
+    box-shadow: 2px 5px 5px rgb(136, 220, 241);
+    border-radius: 10px;
+}
+
+
+summary::after{
+    content: url(./assets/info_16dp_2854C5_FILL0_wght400_GRAD0_opsz20.svg);
+    margin: 10px;
+    
+}
