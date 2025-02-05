@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab05</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="first" class="part">
+        <h1>Part 1:</h1>
+        <form id="form">
+            <label for="name">Enter your name:</label><br>
+            <input id="name" name="name" type="text" required><br>
+            <label for="address">Enter your address:</label><br>
+            <input type="text" id="address" name="address" required><br>
+            <label for="phone">Enter phone#:</label><br>
+            <input type="text" id="phone" name="phone" placeholder="(xxx)xxx-xxxx"><br>
+            <input class="btn" type="submit">
+          
+        </form>
+        <div id="finalDisplay">
+
+        </div>
+    </div>
+
+    <div id="second" class="part">
+        <h1>Part 2:</h1>
+        <form id="text-box">
+            <label for="notebox">Note Section:</label><br>
+            <textarea name="notebox" id="notebox"></textarea>
+            <p>Character count: <span id="charCount"></span></p>
+            <p>Alphabet count: <span id="alphaCount"></span></p>
+
+        </form>
+    </div>
+
+    <div id="third" class="part">
+        <img id="image" src="./assets/IMG_2398.jpg" alt="cat staring" class="small">
+        
+
+    </div>
+
+    <footer>Maitreyee Das © 2024, CPS530, Toronto Metropolitan University</footer>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="lab05.js" charset="UTF-8"></script>
+</body>
+</html>

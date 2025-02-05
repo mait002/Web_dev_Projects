@@ -1,0 +1,30 @@
+footer{
+    position: relative;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 0;
+    width: 100%;
+    bottom: 0;
+    
+
+}
+
+.wrapper{
+    padding: 5%;
+    background-color: antiquewhite;
+    margin: 10%;
+    border: 5px darkred double;
+
+}
+
+body{
+    background: linear-gradient(90deg, rgb(90, 126, 79), rgb(226, 233, 129), rgb(173, 79, 79));
+
+}
+
+h1, h2{
+    text-align: center;
+}
+p{
+    text-align: justify;
+}

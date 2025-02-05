@@ -1,0 +1,42 @@
+body {
+  font-family: "Geist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f8ff;
+  color: #050c71;
+}
+.form-container {
+  width: 400px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.form-container h2 {
+  text-align: center;
+  color: #333;
+}
+label, input, select {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+input[type="text"], input[type="email"] {
+  border: none;
+  box-shadow: 0 2px 9px rgb(68, 106, 156);
+}
+input[type="submit"] {
+  background-color: #1b8c21;
+  color: white;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+  

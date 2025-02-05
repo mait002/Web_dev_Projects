@@ -1,0 +1,25 @@
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body{
+    text-align: center;
+    background-color: rgb(245, 225, 238);
+    margin: 0;
+}
+
+footer{
+    background-color: rgb(190, 104, 163);
+    color: rgb(232, 239, 167);
+    margin-top: 10px;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    
+    
+    
+
+}

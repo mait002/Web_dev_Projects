@@ -1,0 +1,169 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(244, 234, 223);
+    font-size: 1.2rem;
+    text-align: center;
+    
+}
+
+input[type="text"]{
+    width: 200px;
+}
+
+input{
+    margin: 10px;
+    padding: 5px;
+}
+.greeting{
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    align-items: center; /* Center the content vertically */
+    justify-content: center; /* Center the content horizontally */
+    text-align: center; /* Center text inside */
+    padding: 0;
+    margin: 0;
+}
+.evening{
+    background-image: url("./assets/evening1.avif");
+    background-size: cover; /* Ensure the background covers the entire div */
+    background-repeat: no-repeat;
+    color: rgb(243, 227, 206);
+    font-size: 2rem;
+    background-attachment: fixed;
+    
+}
+
+.night{
+    background-image: url("./assets/night.avif");
+    background-position: center;
+    background-size: cover; /* Ensure the background covers the entire div */
+    background-repeat: no-repeat;
+    color: rgb(243, 227, 206);
+    font-size: 2rem;
+    background-attachment: fixed;
+}
+
+.morning{
+    background-image: url("./assets/morning.avif");
+    background-position: center;
+    background-size: cover; /* Ensure the background covers the entire div */
+    background-repeat: no-repeat;
+    color: rgb(18, 17, 5);
+    font-size: 2rem;
+    background-attachment: fixed;
+    
+}
+
+.afternoon{
+    background-image: url("./assets/afternoon.avif");
+    background-position: center;
+    background-size: cover; /* Ensure the background covers the entire div */
+    background-repeat: no-repeat;
+    color: rgb(18, 17, 5);
+    font-size: 2rem;
+    background-attachment: fixed;
+    
+}
+
+.form1{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.warning{
+    color: red;
+}
+
+.favImg {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    width: 100px;
+    height: auto;
+    opacity: 0.8;
+}
+.current-image {
+    position: absolute;
+    top: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    left: 0;
+    
+}
+
+img{
+    height: 150px;
+}
+.form2{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.table{
+    border: 10px rgb(35, 86, 174);
+    background-color: rgb(104, 153, 227);
+    color: antiquewhite;
+    border-collapse: collapse; 
+    margin: 40px;
+    width: 200px;
+    height: auto;
+}
+
+h4{
+    font-size: 1.5rem;
+    color: rgb(35, 86, 174);
+}
+
+button{
+    border: 2px outset rgb(130, 171, 233);
+    background-color: rgb(35, 86, 174);
+    color: rgb(244, 234, 223);
+    height: 40px;
+    width: 70px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 0 0 rgb(130, 171, 233);
+    justify-self: center;
+    padding: 5px;
+    margin: 20px;
+    align-self: center;
+    justify-self: center;
+}
+
+.btn2{
+    width: 100px;
+    height: 40px;
+    flex-direction: column;
+    
+    
+}
+
+.dayclr{
+    color: rgb(18, 17, 5);
+}
+
+.nightclr{
+    color: rgb(243, 227, 206);
+}
+
+footer{
+    background-color: rgb(35, 86, 174);
+    color: rgb(244, 234, 223);
+    margin-top: 10px;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    
+    
+    
+
+}

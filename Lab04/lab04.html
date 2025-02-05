@@ -1,0 +1,58 @@
+<!--
+Create a function that creates a list of bookmarks for your favourite websites. 
+Have the function display each bookmark URL on a separate line along with an icon indicating if the link is 
+secure or not (https vs. http). Use a closed green padlock icon for secure and an opened red or grey 
+padlock for unsecured. Show at least 2 URLs (one http and one https).
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmark & Palindrome Check</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="part1" class="container">
+        <h1 class="heading">Part 1</h1>
+        <h2 class="subheading">Check Bookmarks</h2>
+        <form id="form1" class="border">
+            <label for="numOfWeb">How many favorite websites do you have?</label><br>
+            <input class="input" type="number" id="numOfWeb" name="numOfWeb" max="20" min="1" required>
+            <input class="btn" type="submit">
+        </form>
+        <div id="webForm">
+
+        </div>
+            
+        <h2 class="subheading">Maitreyee's Bookmarks</h2>
+        <button class="btn" id="myBookmarks" type="submit">Choose Default websites</button>
+
+        <div id="resultList">
+            <h2 id="resultTitle" class="subheading"></h2>
+            <ul id="bookmarks">
+                    
+            </ul>
+        </div>
+        
+        
+    </div>
+    
+    <div id="part2" class="container">
+    <h1 class="heading">Part 2</h1>
+    <h2 class="subheading">Check Palindrome</h2>
+        <form id="palindrome">
+            <label >Enter your sentence/phrase/word below to check if it is a palindrome:</label><br>
+            <input class="input" type="text" id="palTest" name="palTest" required>
+            <input class="btn" type="submit" name="checkPal" id="checkPal" value="Check">
+            
+        </form>
+    </div>
+
+    <footer>Maitreyee Das © 2024, CPS530, Toronto Metropolitan University</footer>
+
+    <script src="lab04.js" charset="UTF-8"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Information Form</title>
+</head>
+<body>
+    <h1>City Information Form</h1>
+    <form action="lab10r.cgi" method="post" enctype="application/x-www-form-urlencoded">
+        <label for="city">City Name:</label>
+        <input type="text" id="city" name="city" required><br><br>
+
+        <label for="province">Province/State:</label>
+        <input type="text" id="province" name="province"><br><br>
+
+        <label for="country">Country:</label>
+        <input type="text" id="country" name="country" required><br><br>
+
+        <label for="image_url">Image URL:</label>
+        <input type="url" id="image_url" name="image_url" required><br><br>
+
+        <!-- Two submit buttons -->
+        <button type="submit" formaction="lab10r.cgi">Submit to Ruby</button>
+        <button type="submit" formaction="lab10p.cgi">Submit to Python</button>
+    </form>
+</body>
+</html>
